@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dan Seymour Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="./CSS/Portfolio.css">
+    </head>
+
+    <!-- Body -->
+
+    <body class="background">
+
+    <!-- Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <br>
+        <br>
+
+        <!--Background Video-->
+        <div id="Home">
+            <video autoplay muted loop id="Background_Video">
+                <source src="./Videos/Computer - 5074.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video Text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Dan Seymour's Portfolio</h1>
+            <!--<strong>-->
+                <!--Maybe a portrait photo here-->
+                <p class="center">Hello! Welcome to my portfolio!  My name is Dan Seymour, and here you'll gain insight to what value I will be able to provide you!</p>
+           <!-- </strong> -->
+        </div>
+        
+        <!--About-->
+        <div class="Row" id="About">
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am an inspiring software developer who is eager to join the incredible industry that is technology.<br>
+                    I am currently enrolled in The Tech Academy in the Software Developer program.  Participating in the <br>
+                    course work that the program provides has been like nothing I've done before, and the passion in which <br>
+                    I am driven by is something I've never experienced before.  I have always admired what a powerful tool <br>
+                    a computer is and now I get to get behind the scenes and make use of such a powerful tool!  My studies <br>
+                    include HTML & CSS, JavaScript, SQL, C#, and more.  <br> <br>
+                    After I graduate, I will be a highly employable full-stack software developer with a solid work ethic and <br>
+                    a hunger to contribute to the wide world of Tech!
+                </p>
+            </div>
+            <div class="Column_2">
+                <img src="./Images/thumb_1.jpg" alt="">
+            </div>
+        </div>
+        
+        <!-- GitHub Section-->
+        <div class="Row" id="GitHub">
+            <div class="Column_2">
+                <a href="https://github.com/konadan808" target="new"><img src="./Images/GitHub.jpg" alt="GitHubLogo"></a>
+            </div>
+            <div class="Column_1">
+                <p id="GitHub_Text">
+                    To see my coding projects, please click here to view my GitHub profile page:
+                </p>
+                <p class="center"><a href="https://github.com/konadan808" target="new">Dan Seymour's GitHub Page</a></p>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="Row" id="Contact">
+            <div class="Column_1 Column_tall">
+                <form action="https://formspree.io/f/mzbyybag" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" placeholder="Please enter your email address here">
+                    <label>Message:</label>
+                        <input type="text" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+            <div class="Column_2 Column_tall">
+                <img src="./Images/thumb_4.jpg" alt="">
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <footer>
+            <div>
+                <p class="center">Author: Dan Seymour</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
