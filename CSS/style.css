@@ -4,7 +4,7 @@ html {
 
 * {
     color: black;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -42,7 +42,7 @@ h3 {
 
 .sideNav {
     height: 100%;
-    width: 200px;
+    width: 9%;
     position: fixed;    
     top: 0;
     left:0;
@@ -131,7 +131,7 @@ input:checked + .slider:before {
 }
 
 .content {
-  margin-left: 200px;
+  margin-left: 9%;
   position: relative;
   font-size: 1.25em;
 }
@@ -230,7 +230,7 @@ input:checked + .slider:before {
 .name {
   margin-bottom: 0;
 }
-
+ /* May need to be changed or deleted */
 @media screen and (max-width: 576px) {
   img {
       height: 100px;
