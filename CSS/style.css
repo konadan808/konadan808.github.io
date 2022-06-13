@@ -130,6 +130,7 @@ input:checked + .slider:before {
   font-size: 40px;
   color:white;
   box-shadow: 4px 4px 8px gray;
+  width: 100vw;
 }
 
 .content {
@@ -142,12 +143,12 @@ input:checked + .slider:before {
 
 .container {
     background-image: linear-gradient(150deg, darkolivegreen, lightgray);
-    /*background-color:darkolivegreen;*/
     margin: 100px 20% 100px 20%;
     border-radius: 25px 25px 25px 25px;
     text-align: left;
     padding: 50px 100px 50px 100px;
-    box-shadow: 4px 4px 8px gray;    
+    box-shadow: 4px 4px 8px gray;
+    align-content: justify;    
 }
 
 .introContainer {
@@ -186,13 +187,13 @@ input:checked + .slider:before {
 
 .card, .contactForm {
   background-color: tan;
-  /*background-image: url("../images/bg4.jpg");*/
   background-size: cover;
   border: 3px black solid;
   border-radius: 25px;
   margin: 50px;
   padding: 10px;
   box-shadow: 4px 4px 8px gray;
+  align-content: justify;
 }
 
 .contactForm {
