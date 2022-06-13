@@ -14,6 +14,7 @@ body {
   background-image: url("../Images/bg3.jpg");
   background-size: 100%;
   overflow-x: hidden;
+  align-content: justify;
 }
 
 img {
