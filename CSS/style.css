@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+
 }
 
 * {
@@ -12,7 +13,7 @@ body {
   margin: 0 0 0 0;
   background-image: url("../Images/bg3.jpg");
   background-size: 100%;
-  
+  overflow-x: hidden;
 }
 
 img {
@@ -42,7 +43,7 @@ h3 {
 
 .sideNav {
     height: 100%;
-    width: 9%;
+    width: 200px;
     position: fixed;    
     top: 0;
     left:0;
@@ -50,6 +51,7 @@ h3 {
     z-index: 50;
     box-shadow: 4px 4px 8px gray;
     font-size: 1.25em;
+    align-content: justify;
 }
 
 .sideNav a {
@@ -131,9 +133,10 @@ input:checked + .slider:before {
 }
 
 .content {
-  margin-left: 9%;
+  margin-left: 200px;
   position: relative;
   font-size: 1.25em;
+  min-width: 70%;
 }
 
 .container {
@@ -229,11 +232,4 @@ input:checked + .slider:before {
 
 .name {
   margin-bottom: 0;
-}
- /* May need to be changed or deleted */
-@media screen and (max-width: 576px) {
-  img {
-      height: 100px;
-      margin-top: 150px;
-  }
 }
