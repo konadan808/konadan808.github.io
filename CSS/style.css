@@ -14,7 +14,6 @@ body {
   background-image: url("../Images/bg3.jpg");
   background-size: 100%;
   overflow-x: hidden;
-  align-content: justify;
 }
 
 img {
@@ -131,15 +130,14 @@ input:checked + .slider:before {
   font-size: 40px;
   color:white;
   box-shadow: 4px 4px 8px gray;
-  width: 100%;
+  min-width: 100%;
 }
 
 .content {
   margin-left: 200px;
   position: relative;
   font-size: 1.25em;
-  min-width: 70%;
-  align-content: justify;
+  min-width: 1000px;
 }
 
 .container {
@@ -201,12 +199,13 @@ input:checked + .slider:before {
   font-size: 1.5em;
   text-align: center;
   padding-top: 30px;
+  align-content: justify;
 }
 
 .contactForm input, textarea {
   display: block;
   height: 40px;
-  width: 500px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
