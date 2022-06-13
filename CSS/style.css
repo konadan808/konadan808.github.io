@@ -230,3 +230,10 @@ input:checked + .slider:before {
 .name {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 576px) {
+  img {
+      height: 100px;
+      margin-top: 150px;
+  }
+}
