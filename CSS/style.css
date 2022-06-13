@@ -137,6 +137,7 @@ input:checked + .slider:before {
   position: relative;
   font-size: 1.25em;
   min-width: 70%;
+  align-content: justify;
 }
 
 .container {
