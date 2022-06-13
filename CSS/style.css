@@ -131,7 +131,7 @@ input:checked + .slider:before {
   font-size: 40px;
   color:white;
   box-shadow: 4px 4px 8px gray;
-  width: 100vw;
+  width: 100%;
 }
 
 .content {
