@@ -25,6 +25,9 @@ img {
 li, a, p {  
   font-size: 1.1em;
   text-decoration: none;
+}
+
+a, p {
   text-align: justify;
 }
 
