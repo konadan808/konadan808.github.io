@@ -76,6 +76,7 @@ h3 {
 .linkBTN:hover {
   background-color:dimgray;
   color: white;
+  box-shadow: 4px 4px 8px gray;
 }
 
 /*
