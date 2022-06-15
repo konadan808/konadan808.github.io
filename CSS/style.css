@@ -25,6 +25,7 @@ img {
 li, a, p {  
   font-size: 1.1em;
   text-decoration: none;
+  text-align: justify;
 }
 
 li {
@@ -40,6 +41,10 @@ h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.links {
+  padding: 0;
+}
+
 .sideNav {
     height: 100%;
     width: 200px;
@@ -50,13 +55,26 @@ h3 {
     z-index: 50;
     box-shadow: 4px 4px 8px gray;
     font-size: 1.25em;
-    align-content: justify;
 }
 
 .sideNav a {
-    display: block;    
+    display: block;
+    padding-top: 10px;    
     padding-bottom: 10px;
 }
+
+.linkBTN {
+  transition: 1s;
+  width: 200px;
+  text-indent: 45px;
+  z-index: 49;
+}
+
+.linkBTN:hover {
+  background-color:dimgray;
+  color: white;
+}
+
 /*
 .switch {
   position: relative;
@@ -150,9 +168,16 @@ input:checked + .slider:before {
 }
 
 .introContainer {
-  text-align: center;
   font-size: 1em;
   border-bottom: 1px inset grey;
+}
+
+.introContainer h2, p {
+  text-align: center;
+}
+
+.schoolCard p{
+  text-align: left;
 }
 
 .imgContainer {
@@ -165,7 +190,7 @@ input:checked + .slider:before {
 }
 
 .photoContainer {
-  text-align: center;
+  text-align: justify;
   
 }
 
