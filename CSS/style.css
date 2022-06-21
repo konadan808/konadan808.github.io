@@ -152,6 +152,7 @@ input:checked + .slider:before {
   color:white;
   box-shadow: 4px 4px 8px gray;
   min-width: 100%;
+  color: black;
 }
 
 .content {
